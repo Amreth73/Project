@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Poppins:wght@300;400&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-size: 0px; */
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+.ss
+{
+    position: absolute;
+    top:80px;
+
+}
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #626567;
+}
+body{
+    background-image: url("https://www.proideators.com/wp-content/uploads/2021/08/Top-6-Responsive-Practice-Every-Digital-Marketing-Team-Should-Adopt-ProiDeators-Media.jpg");
+    background-size: cover;
+
+}
+#main
+{
+    width:500px;
+    height: 500px;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px gray;
+    background-color: #F4F6F6;
+    text-align: center;
+    position: relative;
+ 
+}
+/* .row
+{
+    display: flex;
+    align-items: center;
+} */
+
+#dd1
+{
+    position: absolute;
+    top:100px;
+    left: 100px;
+    right: 100px;
+
+}
+#dd
+{
+    position: absolute;
+    top:180px;
+    left: 100px;
+    right: 100px; 
+}
+#b11
+{
+    position: absolute;
+    width: 250px;
+    top:280px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+}

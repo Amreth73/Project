@@ -1,0 +1,180 @@
+
+*{
+	font-family: 'Noto Sans', sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 700;
+}
+button{
+	align-self: center;
+	background-color: #1D62DF;
+}
+#main
+{
+	width: 500px;
+	/* height: 600px; */
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 35%;
+}
+#img
+{
+	position: absolute;
+	top:10px;
+	left:220px;
+	background-color: blue;
+}
+#u
+{
+	position: absolute;
+	width: 250px;
+	height: 40px;
+	padding: 10px;
+	top:-90px;
+	left:30px;
+	border-radius: 5px;
+}
+#e
+{
+	position: absolute;
+	width: 250px;
+	height: 40px;
+	padding: 10px;
+	top:50px;
+	left:30px;
+	border-radius: 5px;
+	
+}
+#pp
+{
+	position: absolute;
+	width: 250px;
+	height: 40px;
+	padding: 10px;
+	top:210px;
+	left:130px;
+	border-radius: 5px;
+}
+#cp
+{
+	position: absolute;
+	width: 250px;
+	height: 40px;
+	padding: 10px;
+	top:270px;
+	left:130px;
+	border-radius: 5px;
+}
+#p1
+{
+	width: 20px;
+	height: 30px;
+	position: absolute;
+	top: 220px;
+	left: 400px;
+}
+#p2
+{
+	width: 20px;
+	height: 30px;
+	position: absolute;
+	top: 270px;
+	left: 400px;
+}
+input:focus
+{
+	border: 2px solid black;
+}
+#b1
+{
+	position: absolute;
+	background-color:#1D62DF ;
+	color: white;
+	width: 180px;
+	height: 30px;
+    margin: 10px;
+	font-size: 20px;
+	top:360px;
+	left: 80px;
+	border-radius: 5px;
+	
+}
+#b2
+{
+	position: absolute;
+	background-color:transparent ;
+	color: blue;
+	font-size: 15px;
+	width: 180px;
+	height: 30px;
+	margin: 10px;
+	top:360px;
+	left: 280px;
+	border: none;
+	/* border-radius: 5px; */
+	
+}
+#b2:hover
+{
+	text-decoration: underline;
+}
+.navbar{
+ display: flex;
+	background-color: #10639A;
+	color: white;
+	width: auto;
+	height: 100px;
+}
+
+.logo{
+	/* position: absolute; */
+	text-align: left;
+	font-size : 20px;
+	font-weight: 500;
+	margin: 10px;
+	padding: 10px;
+	align-self: center;
+}
+#imgg
+{
+	align-self: center;
+	margin: 15px;
+}
+.links
+{
+	width: 400px;
+	align-self: center;
+}
+.links ul{
+	display: flex;
+	margin: right;
+}
+
+.links ul li{
+	list-style:none;	
+}
+.links ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 16px;
+	display: block;
+}
+.links ul li:hover{
+	background-color: #34495e;
+	border: 1px solid white;
+}
+
+#log
+{
+	border-radius: 5px;
+	color: white;
+	width: 250px;
+	height: 30px;
+	transition: 0.5s;
+}
+#log:hover
+{
+	font-weight: bolder;
+}
