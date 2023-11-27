@@ -44,6 +44,8 @@ const Login = () => {
         </button>
         
       </form>
+      <img src="https://img.freepik.com/premium-vector/sign-page-illustration-design-template_559664-154.jpg?w=360" id="logo"></img>
+    
     </div>
   );
 };

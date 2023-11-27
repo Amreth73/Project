@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-const About = () => {
+const NewUp = () => {
   const [activeItem, setActiveItem] = useState(1);
   const data = [
     {
@@ -60,7 +60,7 @@ const About = () => {
         <ContentWrapper>
           <Left>
             <TextWrapper>
-              <p id="Aboutus">About Us</p>
+              <p>About Us</p>
             </TextWrapper>
            
           </Left>
@@ -82,7 +82,7 @@ const About = () => {
                     isFirst={i.id === 1}
                     isActive={i.id === activeItem}
                   >
-                    <h1 id="hellllo">{i.name}</h1>
+                    <h1>{i.name}</h1>
                     {/* <TopicListWrapper>
                       <p>{i.topicList}</p>
                       <span>Topics</span>
@@ -104,7 +104,7 @@ const About = () => {
   );
 };
 
-export default About;
+export default NewUp;
 
 const AppContainer = styled.div`
   position: relative;
@@ -116,7 +116,7 @@ const AppContainer = styled.div`
   background-color: #fcfbfb;
 `;
 const Wrapper = styled.div`
-  width: 1200px;
+  width: 1500px;
   @media screen and (max-width: 480px) {
   }
 `;
@@ -134,7 +134,7 @@ const ContentWrapper = styled.div`
 
 const Left = styled.div`
   position: relative;
-  @media screen and (max-width: 380px) {
+  @media screen and (max-width: 480px) {
     height: 310px;
     padding: 0 10px;
   }
@@ -144,7 +144,7 @@ const TextWrapper = styled.div`
   line-height: 80px;
   font-size: 80px;
   margin-top: 90px;
-#Aboutus{
+p{
     
     
     color:#001f3f;
@@ -169,7 +169,7 @@ const Right = styled.div`
   align-items: stretch;
   overflow: hidden;
   min-width: 900px;
-  max-width: 1000px;
+  max-width: 1500px;
   width: calc(100% - 100px);
   height: 600px;
   @media screen and (max-width: 480px) {
@@ -211,7 +211,7 @@ const Item = styled.div`
     position: absolute;
     display: block;
     height: 50%;
-    width: 1000px;
+    width: 100%;
     left: 0;
     
     bottom: 0;
@@ -232,7 +232,7 @@ const DetailsWrapper = styled.div`
   padding-left: ${({ isFirst }) => (isFirst ? "70px" : "40px")};
   transition: all 0.6s ease;
   opacity: ${({ isActive }) => (isActive ? "2" : "0")};
-  #hellllo{
+  h1 {
     font-size: 34px;
     color:white;
     font-weight: 800;

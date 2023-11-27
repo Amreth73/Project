@@ -17,13 +17,13 @@ export default function Front() {
     <div id="cc">
     <div class="navbar"  ref={nav}>
       
-        <div class="logo" >DigitalDreams</div>
+        <div class="logo"  >DigitalDreams</div>
         <div class="links">
           <ul>
-            <li ><Link to="/hhome">Home</Link></li>
-           <li><Link to="/about">About</Link></li>
-            <li><Link to="/service">Service</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li ><Link to="/hhome">Home </Link></li>
+           <li><Link to="/about">About </Link></li>
+            <li><Link to="/service">Service </Link></li>
+            <li><Link to="/contact">Contact     </Link></li>
             </ul>
         </div>
             <button id="log"onClick={handleHome}>Log out</button>

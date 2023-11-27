@@ -11,11 +11,11 @@ import Contact from './linkingPages/Contact';
 import Service from './linkingPages/Service';
 import HomePage from './linkingPages/HomePage';
 import Final from './component/FinalLog';
+import {GoogleOAuthProvider} from '@react-oauth/google'
 function App() {
   return (
     <div className="App">
        <BrowserRouter>
-       
          {/* <Front /> */}
       <Routes>
           <Route  path="/hhome" element={<HomePage />}></Route>
@@ -27,8 +27,7 @@ function App() {
           <Route path="/final" element={<Final />}></Route>
       </Routes>
      </BrowserRouter>
-     {/* <Home /> */}
-     {/* <Login /> */}
+
     
 
     </div>
